@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto:wght@500&display=swap");
+
+body {
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background: url(./photo-1591626291279-9f347d083814.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+img {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+}
+h1 {
+  background: #ff0def; /* fallback color if gradients are not supported*/
+  background: -webkit-linear-gradient(
+    20deg,
+    rgba(255, 13, 239, 0.8) 28%,
+    #ffef0b 62%
+  );
+  background: -moz-linear-gradient(
+    20deg,
+    rgba(255, 13, 239, 0.8) 28%,
+    #ffef0b 62%
+  );
+  background: -o-linear-gradient(
+    20deg,
+    rgba(255, 13, 239, 0.8) 28%,
+    #ffef0b 62%
+  );
+  background: linear-gradient(20deg, rgba(255, 13, 239, 0.8) 28%, #ffef0b 62%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.playoffs {
+  color: #fff;
+  font-size: 1em;
+  width: 10%;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.number {
+  font-size: 2.5em;
+  color: yellow;
+}
+p {
+  font-size: 30px;
+  color: yellow;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
